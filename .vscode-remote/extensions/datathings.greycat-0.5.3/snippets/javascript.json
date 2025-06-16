@@ -1,0 +1,19 @@
+{
+  "WebComponent Template": {
+    "prefix": "wc",
+    "body": [
+      "export class ${1:MyComponent} extends HTMLElement {",
+      "}",
+      "",
+      "if (!customElements.get('${0:my-component}')) {",
+      "  customElements.define('${0:my-component}', ${1:MyComponent});",
+      "}"
+    ]
+  },
+  "JSDoc @type inline-comment": {
+    "prefix": "@type",
+    "body": [
+      "/** @type {$0} */"
+    ]
+  }
+}

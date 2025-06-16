@@ -1,0 +1,55 @@
+2025-06-16 20:44:06.369 [info] [الرئيسي] مستوى السجل: Info
+2025-06-16 20:44:06.369 [info] [الرئيسي] التحقق من git الموجود في: "git"
+2025-06-16 20:44:06.369 [info] [الرئيسي] استخدام git "2.49.0" من "git"
+2025-06-16 20:44:06.369 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-16 20:44:06.369 [info] > git rev-parse --show-toplevel [43ms]
+2025-06-16 20:44:06.369 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2025-06-16 20:44:06.369 [info] [Model][openRepository] Opened repository (path): /workspaces/zad-al-khair-app
+2025-06-16 20:44:06.369 [info] [Model][openRepository] Opened repository (real path): /workspaces/zad-al-khair-app
+2025-06-16 20:44:06.369 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-16 20:44:06.369 [info] > git config --get commit.template [4ms]
+2025-06-16 20:44:06.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-06-16 20:44:06.369 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/zad-al-khair-app/.git/refs/remotes/origin/main'
+2025-06-16 20:44:06.369 [info] > git rev-parse refs/remotes/origin/main [418ms]
+2025-06-16 20:44:06.369 [info] > git status -z -uall [10ms]
+2025-06-16 20:44:06.369 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [19ms]
+2025-06-16 20:44:06.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-06-16 20:44:06.369 [info] > git config --get commit.template [10ms]
+2025-06-16 20:44:06.369 [info] > git config --get --local branch.main.vscode-merge-base [3ms]
+2025-06-16 20:44:06.369 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-16 20:44:06.369 [info] > git reflog main --grep-reflog=branch: Created from *. [9ms]
+2025-06-16 20:44:06.377 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-06-16 20:44:06.390 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/zad-al-khair-app/.git/refs/remotes/origin/main'
+2025-06-16 20:44:06.392 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-06-16 20:44:06.409 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [32ms]
+2025-06-16 20:44:06.420 [info] > git status -z -uall [19ms]
+2025-06-16 20:44:06.421 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-06-16 20:44:06.432 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [18ms]
+2025-06-16 20:44:06.443 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-06-16 20:44:06.454 [info] > git config --add --local branch.main.vscode-merge-base origin/main [11ms]
+2025-06-16 20:44:06.469 [info] > git config --get --local branch.main.vscode-merge-base [7ms]
+2025-06-16 20:44:06.493 [info] > git config --get commit.template [24ms]
+2025-06-16 20:44:06.505 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [30ms]
+2025-06-16 20:44:06.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2025-06-16 20:44:06.559 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/zad-al-khair-app/.git/refs/remotes/origin/main'
+2025-06-16 20:44:06.559 [info] > git merge-base refs/heads/main refs/remotes/origin/main [35ms]
+2025-06-16 20:44:06.574 [info] > git rev-parse refs/remotes/origin/main [16ms]
+2025-06-16 20:44:06.590 [info] > git status -z -uall [10ms]
+2025-06-16 20:44:06.590 [info] > git diff --name-status -z --diff-filter=ADMR 087ac8efc62b762c54b73efb84442eb6fab6ca65...refs/remotes/origin/main [24ms]
+2025-06-16 20:44:06.603 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [16ms]
+2025-06-16 20:44:06.763 [info] > git check-ignore -v -z --stdin [5ms]
+2025-06-16 20:44:08.963 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2025-06-16 20:44:08.964 [info] > git config --get commit.template [10ms]
+2025-06-16 20:44:08.969 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/zad-al-khair-app/.git/refs/remotes/origin/main'
+2025-06-16 20:44:08.970 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-06-16 20:44:08.990 [info] > git status -z -uall [13ms]
+2025-06-16 20:44:08.994 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-06-16 20:44:11.410 [info] > git config --get --local branch.main.github-pr-owner-number [43ms]
+2025-06-16 20:44:11.410 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-16 20:44:17.573 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [2ms]
+2025-06-16 20:45:04.709 [info] > git config --get commit.template [11ms]
+2025-06-16 20:45:04.713 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-06-16 20:45:04.722 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspaces/zad-al-khair-app/.git/refs/remotes/origin/main'
+2025-06-16 20:45:04.727 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2025-06-16 20:45:04.744 [info] > git status -z -uall [10ms]
+2025-06-16 20:45:04.748 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]

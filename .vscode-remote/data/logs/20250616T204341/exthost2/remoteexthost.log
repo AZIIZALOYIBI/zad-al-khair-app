@@ -1,0 +1,273 @@
+2025-06-16 20:44:41.829 [info] Extension host with pid 29815 started
+2025-06-16 20:44:43.821 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-16 20:44:43.822 [info] ExtensionService#_doActivateExtension GitHub.codespaces, startup: false, activationEvent: 'onCommand:github.codespaces.activate'
+2025-06-16 20:44:43.823 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2025-06-16 20:44:43.823 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-16 20:44:45.355 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:361:1437)
+    at Object.53315 (/home/codespace/.vscode-remote/extensions/node_modules/axios/dist/node/axios.cjs:1298:20)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/webpack/bootstrap:19:32)
+    at Object.3797 (/home/codespace/.vscode-remote/extensions/node_modules/@microsoft/dev-tunnels-management/tunnelManagementHttpClient.js:10:17)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/webpack/bootstrap:19:32)
+    at Object.93164 (/home/codespace/.vscode-remote/extensions/node_modules/@microsoft/dev-tunnels-management/index.js:19:14)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/webpack/bootstrap:19:32)
+    at Object.63833 (/home/codespace/.vscode-remote/extensions/node_modules/@microsoft/dev-tunnels-connections/tunnelConnectionSession.js:7:34)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/webpack/bootstrap:19:32)
+    at Object.46891 (/home/codespace/.vscode-remote/extensions/node_modules/@microsoft/dev-tunnels-connections/tunnelRelayTunnelClient.js:14:35)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/webpack/bootstrap:19:32)
+    at Object.97786 (/home/codespace/.vscode-remote/extensions/node_modules/@microsoft/dev-tunnels-connections/index.js:31:14)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/webpack/bootstrap:19:32)
+    at Object.25896 (/home/codespace/.vscode-remote/extensions/codespaces-internal/dist/src/connection/tunnelProvider.js:44:35)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/webpack/bootstrap:19:32)
+    at Object.636 (/home/codespace/.vscode-remote/extensions/codespaces-internal/dist/src/connection/index.js:18:14)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/webpack/bootstrap:19:32)
+    at Object.15362 (/home/codespace/.vscode-remote/extensions/codespaces-internal/dist/src/index.js:17:14)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/webpack/bootstrap:19:32)
+    at Object.62287 (/home/codespace/.vscode-remote/extensions/vscode-command-framework/dist/src/vscodeIdleStatus/VscodeActivityProvider.js:4:31)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/webpack/bootstrap:19:32)
+    at Object.89813 (/home/codespace/.vscode-remote/extensions/vscode-command-framework/dist/src/index.js:53:32)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/webpack/bootstrap:19:32)
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/out/bundle/extension-node.js:1567:248720
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/out/bundle/extension-node.js:1574:23665
+    at Object.<anonymous> (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/out/bundle/extension-node.js:1574:23704)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1282:12)
+    at Function.e._load (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:361:810)
+    at Function.t._load (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:181:22628)
+    at Function.s._load (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:173:23297)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at yY.Cb (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:212:1253)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-06-16 20:44:45.448 [warning] Using default string since no string found in i18n bundle that has the key: Keep Defaults
+2025-06-16 20:44:45.448 [warning] Using default string since no string found in i18n bundle that has the key: Configure Options
+2025-06-16 20:44:45.448 [warning] Using default string since no string found in i18n bundle that has the key: Finish
+2025-06-16 20:44:45.450 [warning] Using default string since no string found in i18n bundle that has the key: Learn More
+2025-06-16 20:44:45.451 [warning] Using default string since no string found in i18n bundle that has the key: Documentation on predefined container definitions
+2025-06-16 20:44:45.476 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:361:1437)
+    at Object.37662 (/home/codespace/.vscode-remote/extensions/node_modules/axios/lib/platform/common/utils.js:3:20)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/webpack/bootstrap:19:32)
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/out/bundle/extension-node.js:1567:268251
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/out/bundle/extension-node.js:1574:23665
+    at Object.<anonymous> (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/out/bundle/extension-node.js:1574:23704)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1282:12)
+    at Function.e._load (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:361:810)
+    at Function.t._load (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:181:22628)
+    at Function.s._load (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:173:23297)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at yY.Cb (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:212:1253)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-06-16 20:44:45.479 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:361:1437)
+    at getUserAgent (/home/codespace/.vscode-remote/extensions/node_modules/universal-user-agent/dist-web/index.js:2:5)
+    at Object.37662 (/home/codespace/.vscode-remote/extensions/node_modules/@octokit/endpoint/dist-src/defaults.js:3:53)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/webpack/bootstrap:19:32)
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/out/bundle/extension-node.js:1567:268251
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/out/bundle/extension-node.js:1574:23665
+    at Object.<anonymous> (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/out/bundle/extension-node.js:1574:23704)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1282:12)
+    at Function.e._load (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:361:810)
+    at Function.t._load (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:181:22628)
+    at Function.s._load (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:173:23297)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at yY.Cb (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:212:1253)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-06-16 20:44:45.479 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:361:1437)
+    at getUserAgent (/home/codespace/.vscode-remote/extensions/node_modules/universal-user-agent/dist-web/index.js:2:5)
+    at Object.37662 (/home/codespace/.vscode-remote/extensions/node_modules/@octokit/request/dist-src/index.js:7:52)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/webpack/bootstrap:19:32)
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/out/bundle/extension-node.js:1567:268251
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/out/bundle/extension-node.js:1574:23665
+    at Object.<anonymous> (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/out/bundle/extension-node.js:1574:23704)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1282:12)
+    at Function.e._load (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:361:810)
+    at Function.t._load (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:181:22628)
+    at Function.s._load (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:173:23297)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at yY.Cb (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:212:1253)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-06-16 20:44:45.480 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:361:1437)
+    at getUserAgent (/home/codespace/.vscode-remote/extensions/node_modules/universal-user-agent/dist-web/index.js:2:5)
+    at Object.37662 (/home/codespace/.vscode-remote/extensions/node_modules/@octokit/graphql/dist-web/index.js:112:52)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/webpack/bootstrap:19:32)
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/out/bundle/extension-node.js:1567:268251
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/out/bundle/extension-node.js:1574:23665
+    at Object.<anonymous> (/home/codespace/.vscode-remote/extensions/github.codespaces-1.17.3/out/bundle/extension-node.js:1574:23704)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10)
+    at Module.load (node:internal/modules/cjs/loader:1465:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1282:12)
+    at Function.e._load (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:361:810)
+    at Function.t._load (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:181:22628)
+    at Function.s._load (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:173:23297)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at yY.Cb (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:212:1253)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-06-16 20:44:51.743 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2025-06-16 20:44:51.743 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-06-16 20:44:53.423 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-16 20:44:53.424 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-16 20:44:53.424 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-16 20:44:55.542 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-16 20:44:55.545 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-16 20:44:55.546 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2025-06-16 20:44:57.323 [info] Eager extensions activated
+2025-06-16 20:45:00.790 [warning] Using default string since no string found in i18n bundle that has the key: Unable to resolve schema. Click to retry.
+2025-06-16 20:45:00.791 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2025-06-16 20:45:01.466 [error] Failed to load translations for GitHub.vscode-pull-request-github from file:///home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.110.0/dist/browser/extension/bundle.l10n.ar.json: تعذر قراءة الملف "vscode-remote://codespaces+solid-space-spoon-x64gpg7qpg5fp7p7/home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.110.0/dist/browser/extension/bundle.l10n.ar.json" (Error: تعذر العثور على الملف غير الموجود 'vscode-remote://codespaces+solid-space-spoon-x64gpg7qpg5fp7p7/home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.110.0/dist/browser/extension/bundle.l10n.ar.json')
+2025-06-16 20:45:01.627 [warning] Using default string since no string found in i18n bundle that has the key: Copilot is powered by AI, so mistakes are possible. Review output carefully before use.
+2025-06-16 20:45:01.667 [warning] Using default string since no string found in i18n bundle that has the key: Try again?
+2025-06-16 20:45:01.667 [warning] Using default string since no string found in i18n bundle that has the key: Cancel
+2025-06-16 20:45:01.667 [warning] Using default string since no string found in i18n bundle that has the key: Sign In
+2025-06-16 20:45:01.667 [warning] Using default string since no string found in i18n bundle that has the key: Don't Show Again
+2025-06-16 20:45:01.667 [warning] Using default string since no string found in i18n bundle that has the key: prompt for sign in
+2025-06-16 20:45:01.670 [warning] Using default string since no string found in i18n bundle that has the key: Commit Staged
+2025-06-16 20:45:01.670 [warning] Using default string since no string found in i18n bundle that has the key: Commit All
+2025-06-16 20:45:01.670 [warning] Using default string since no string found in i18n bundle that has the key: Assignees:
+2025-06-16 20:45:01.670 [warning] Using default string since no string found in i18n bundle that has the key: Labels:
+2025-06-16 20:45:01.670 [warning] Using default string since no string found in i18n bundle that has the key: Milestone:
+2025-06-16 20:45:01.670 [warning] Using default string since no string found in i18n bundle that has the key: Projects:
+2025-06-16 20:45:01.670 [warning] Using default string since no string found in i18n bundle that has the key: My Issues
+2025-06-16 20:45:03.487 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-06-16 20:45:05.793 [error] Failed to load translations for GitHub.copilot-chat from file:///home/codespace/.vscode-remote/extensions/github.copilot-chat-0.28.0/l10n/bundle.l10n.ar.json: تعذر قراءة الملف "vscode-remote://codespaces+solid-space-spoon-x64gpg7qpg5fp7p7/home/codespace/.vscode-remote/extensions/github.copilot-chat-0.28.0/l10n/bundle.l10n.ar.json" (Error: تعذر العثور على الملف غير الموجود 'vscode-remote://codespaces+solid-space-spoon-x64gpg7qpg5fp7p7/home/codespace/.vscode-remote/extensions/github.copilot-chat-0.28.0/l10n/bundle.l10n.ar.json')
+2025-06-16 20:45:06.615 [warning] Using default string since no string found in i18n bundle that has the key: Sign in again to {0}
+2025-06-16 20:45:06.678 [warning] Using default string since no string found in i18n bundle that has the key: Generate tests using Copilot
+2025-06-16 20:45:07.019 [warning] Using default string since no string found in i18n bundle that has the key: Sorry, but I can only assist with programming related questions.
+2025-06-16 20:45:08.463 [warning] Using default string since no string found in i18n bundle that has the key: Cannot edit this pull request file. [Check out](command:pr.checkoutFromReadonlyFile) this pull request to edit.
+2025-06-16 20:45:08.544 [warning] Using default string since no string found in i18n bundle that has the key: Copy github.dev Link
+2025-06-16 20:45:08.544 [warning] Using default string since no string found in i18n bundle that has the key: Copy GitHub Permalink
+2025-06-16 20:45:08.544 [warning] Using default string since no string found in i18n bundle that has the key: Copy GitHub Permalink as Markdown
+2025-06-16 20:45:08.544 [warning] Using default string since no string found in i18n bundle that has the key: Copy GitHub HEAD Link
+2025-06-16 20:45:12.377 [warning] Using default string since no string found in i18n bundle that has the key: This file preview was generated by Copilot and may contain surprises or mistakes.
+
+Ask followup questions to refine it, then press Create Workspace.
+2025-06-16 20:45:12.379 [warning] Using default string since no string found in i18n bundle that has the key: You can ask me general programming questions, or chat with the following participants which have specialized expertise and can perform actions:
+2025-06-16 20:45:12.379 [warning] Using default string since no string found in i18n bundle that has the key: To have a great conversation, ask me questions as if I was a real programmer:
+
+* **Show me the code** you want to talk about by having the files open and selecting the most important lines.
+* **Make refinements** by asking me follow-up questions, adding clarifications, providing errors, etc.
+* **Review my suggested code** and tell me about issues or improvements, so I can iterate on it.
+
+You can also ask me questions about your editor selection by [starting an inline chat session](command:inlineChat.start).
+
+Learn more about [GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) in [Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview). Or explore the [Copilot walkthrough](command:github.copilot.open.walkthrough)./{Locked='](command:inlineChat.start)'}
+2025-06-16 20:45:12.379 [warning] Using default string since no string found in i18n bundle that has the key: You can also help me understand your question by using the following variables to give me extra context:
+2025-06-16 20:45:12.393 [warning] Using default string since no string found in i18n bundle that has the key: Get answers grounded in web search, code search, and your enterprise's knowledge bases
+2025-06-16 20:45:12.421 [warning] Using default string since no string found in i18n bundle that has the key: Generate with Copilot
+2025-06-16 20:45:12.421 [warning] Using default string since no string found in i18n bundle that has the key: Copilot
+2025-06-16 20:45:48.259 [warning] Using default string since no string found in i18n bundle that has the key: TypeScript version
+2025-06-16 20:45:48.282 [warning] Using default string since no string found in i18n bundle that has the key: Partial mode
+2025-06-16 20:45:48.282 [warning] Using default string since no string found in i18n bundle that has the key: Project wide IntelliSense not available
+2025-06-16 20:45:48.366 [warning] Using default string since no string found in i18n bundle that has the key: No schema validation
+2025-06-16 20:45:48.366 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2025-06-16 20:45:48.366 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2025-06-16 20:50:46.049 [error] Error: <syntax> TypeScript Server Error (5.8.3)
+	at n.create (/vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/extensions/typescript-language-features/dist/extension.js:2:497261)
+	at y.dispatchResponse (/vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/extensions/typescript-language-features/dist/extension.js:2:490340)
+	at y.dispatchMessage (/vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/extensions/typescript-language-features/dist/extension.js:2:488781)
+	at ChildProcess.<anonymous> (/vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/extensions/typescript-language-features/dist/extension.js:2:488274)
+	at ChildProcess.emit (node:events:518:28)
+	at emit (node:internal/child_process:949:14)
+	at process.processTicksAndRejections (node:internal/process/task_queues:91:21) typescript.tsserverRequest {"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"}
+2025-06-16 20:51:27.873 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2025-06-16 20:51:27.875 [warning] Using default string since no string found in i18n bundle that has the key: Partial mode
+2025-06-16 20:51:27.875 [warning] Using default string since no string found in i18n bundle that has the key: Project wide IntelliSense not available
+2025-06-16 20:51:27.886 [warning] Using default string since no string found in i18n bundle that has the key: No schema validation
+2025-06-16 20:51:27.886 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2025-06-16 20:51:27.886 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2025-06-16 20:51:33.659 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2025-06-16 20:51:33.683 [warning] Using default string since no string found in i18n bundle that has the key: Partial mode
+2025-06-16 20:51:33.684 [warning] Using default string since no string found in i18n bundle that has the key: Project wide IntelliSense not available
+2025-06-16 20:51:33.686 [warning] Using default string since no string found in i18n bundle that has the key: No schema validation
+2025-06-16 20:51:33.686 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2025-06-16 20:51:33.686 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2025-06-16 20:52:27.684 [warning] Using default string since no string found in i18n bundle that has the key: Fix using Copilot
+2025-06-16 20:52:27.684 [warning] Using default string since no string found in i18n bundle that has the key: Explain using Copilot
+2025-06-16 20:52:28.634 [warning] Using default string since no string found in i18n bundle that has the key: No schema validation
+2025-06-16 20:52:28.634 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2025-06-16 20:52:28.634 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2025-06-16 20:52:29.061 [warning] Using default string since no string found in i18n bundle that has the key: No schema validation
+2025-06-16 20:52:29.061 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2025-06-16 20:52:29.061 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2025-06-16 20:53:01.270 [warning] Using default string since no string found in i18n bundle that has the key: Fix using Copilot
+2025-06-16 20:53:01.270 [warning] Using default string since no string found in i18n bundle that has the key: Explain using Copilot
+2025-06-16 20:53:29.928 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2025-06-16 20:53:33.777 [warning] Using default string since no string found in i18n bundle that has the key: No schema validation
+2025-06-16 20:53:33.777 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2025-06-16 20:53:33.777 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2025-06-16 20:55:02.246 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-06-16 20:56:27.150 [warning] Using default string since no string found in i18n bundle that has the key: Modify using Copilot
+2025-06-16 20:56:27.153 [warning] Using default string since no string found in i18n bundle that has the key: Review using Copilot
+2025-06-16 21:01:20.513 [warning] Using default string since no string found in i18n bundle that has the key: No schema validation
+2025-06-16 21:01:20.513 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2025-06-16 21:01:20.513 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2025-06-16 21:01:24.254 [warning] Using default string since no string found in i18n bundle that has the key: No schema validation
+2025-06-16 21:01:24.254 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2025-06-16 21:01:24.254 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2025-06-16 21:02:27.132 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2025-06-16 21:02:27.144 [warning] Using default string since no string found in i18n bundle that has the key: No schema validation
+2025-06-16 21:02:27.144 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2025-06-16 21:02:27.144 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2025-06-16 21:02:31.305 [warning] Using default string since no string found in i18n bundle that has the key: Git Local Changes (Working Tree)
+2025-06-16 21:02:31.305 [warning] Using default string since no string found in i18n bundle that has the key: Git Local Changes (Index)
+2025-06-16 21:02:31.320 [warning] Using default string since no string found in i18n bundle that has the key: Changes in Pull Request
+2025-06-16 21:02:31.322 [error] Error: e is not iterable
+
+TypeError: e is not iterable
+	at sne.setItems (/home/codespace/.vscode-remote/extensions/github.copilot-chat-0.28.0/dist/extension.js:433:31495)
+	at fl._computeFn (/home/codespace/.vscode-remote/extensions/github.copilot-chat-0.28.0/dist/extension.js:433:31226)
+	at fl._recompute (/home/codespace/.vscode-remote/extensions/github.copilot-chat-0.28.0/dist/extension.js:433:23920)
+	at fl.get (/home/codespace/.vscode-remote/extensions/github.copilot-chat-0.28.0/dist/extension.js:433:23310)
+	at fl.reportChanges (/home/codespace/.vscode-remote/extensions/github.copilot-chat-0.28.0/dist/extension.js:433:3643)
+	at one.endUpdate (/home/codespace/.vscode-remote/extensions/github.copilot-chat-0.28.0/dist/extension.js:433:31008)
+	at pKe (/home/codespace/.vscode-remote/extensions/github.copilot-chat-0.28.0/dist/extension.js:433:30726)
+	at fl.recomputeInitiallyAndOnChange (/home/codespace/.vscode-remote/extensions/github.copilot-chat-0.28.0/dist/extension.js:433:4220)
+	at $O.init (/home/codespace/.vscode-remote/extensions/github.copilot-chat-0.28.0/dist/extension.js:869:1312)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at Timeout._onTimeout (/home/codespace/.vscode-remote/extensions/github.copilot-chat-0.28.0/dist/extension.js:401:12)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)
+2025-06-16 21:02:33.698 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-06-16 21:02:35.862 [warning] Using default string since no string found in i18n bundle that has the key: Changes in Pull Request
+2025-06-16 21:02:36.643 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-06-16 21:03:25.021 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2025-06-16 21:03:25.040 [warning] Using default string since no string found in i18n bundle that has the key: No schema validation
+2025-06-16 21:03:25.040 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2025-06-16 21:03:25.040 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2025-06-16 21:03:56.138 [warning] Using default string since no string found in i18n bundle that has the key: No schema validation
+2025-06-16 21:03:56.139 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2025-06-16 21:03:56.139 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2025-06-16 21:04:11.436 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2025-06-16 21:04:11.440 [warning] Using default string since no string found in i18n bundle that has the key: No schema validation
+2025-06-16 21:04:11.440 [warning] Using default string since no string found in i18n bundle that has the key: no JSON schema configured
+2025-06-16 21:04:11.440 [warning] Using default string since no string found in i18n bundle that has the key: Show Schemas
+2025-06-16 21:04:19.542 [warning] Using default string since no string found in i18n bundle that has the key: Unable to compute used schemas: No document
+2025-06-16 21:04:23.199 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000

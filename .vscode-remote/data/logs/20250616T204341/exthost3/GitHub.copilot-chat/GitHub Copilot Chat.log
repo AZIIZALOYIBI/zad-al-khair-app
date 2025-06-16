@@ -1,0 +1,23 @@
+2025-06-16 21:05:25.907 [info] Can't use the Electron fetcher in this environment.
+2025-06-16 21:05:25.907 [info] Using the Node fetch fetcher.
+2025-06-16 21:05:25.907 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-06-16 21:05:27.429 [error] Error pinging TypeScript server plugin:: Error: <syntax> TypeScript Server Error (5.8.3)
+2025-06-16 21:05:27.460 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-06-16 21:05:27.460 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-06-16 21:05:27.460 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-06-16 21:05:32.171 [info] Logged in as AZIIZALOYIBI
+2025-06-16 21:05:33.940 [info] Got Copilot token for AZIIZALOYIBI
+2025-06-16 21:05:33.950 [info] activationBlocker from 'languageModelAccess' took for 7913ms
+2025-06-16 21:05:37.385 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-06-16 21:05:37.426 [info] Registering default platform agent...
+2025-06-16 21:05:37.426 [info] activationBlocker from 'conversationFeature' took for 11394ms
+2025-06-16 21:05:37.427 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2025-06-16 21:05:37.427 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2025-06-16 21:05:37.427 [info] Successfully registered GitHub PR title and description provider.
+2025-06-16 21:05:37.427 [info] Successfully registered GitHub PR reviewer comments provider.
+2025-06-16 21:05:37.431 [info] Fetched model metadata in 3481ms bceb07d7-bb47-4ebc-8911-11b807825a51
+2025-06-16 21:05:38.381 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-06-16 21:05:38.999 [warning] Invalid remote agent response: bad request: unknown integration
+ (SyntaxError: Unexpected token 'b', "bad reques"... is not valid JSON)
+2025-06-16 21:05:46.968 [info] message 0 returned. finish reason: [tool_calls]
+2025-06-16 21:05:46.968 [info] request done: requestId: [a87ab29d-3d3f-45b2-a7d3-57576724f240] model deployment ID: []

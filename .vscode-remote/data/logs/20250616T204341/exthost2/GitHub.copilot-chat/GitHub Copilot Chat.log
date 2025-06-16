@@ -1,0 +1,113 @@
+2025-06-16 20:45:08.251 [info] Can't use the Electron fetcher in this environment.
+2025-06-16 20:45:08.251 [info] Using the Node fetch fetcher.
+2025-06-16 20:45:08.251 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2025-06-16 20:45:08.251 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2025-06-16 20:45:08.251 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2025-06-16 20:45:08.251 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2025-06-16 20:45:09.388 [info] Logged in as AZIIZALOYIBI
+2025-06-16 20:45:11.475 [info] Got Copilot token for AZIIZALOYIBI
+2025-06-16 20:45:11.485 [info] activationBlocker from 'languageModelAccess' took for 3101ms
+2025-06-16 20:45:12.401 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-06-16 20:45:12.420 [info] Registering default platform agent...
+2025-06-16 20:45:12.421 [info] activationBlocker from 'conversationFeature' took for 4042ms
+2025-06-16 20:45:12.421 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2025-06-16 20:45:12.421 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2025-06-16 20:45:12.421 [info] Successfully registered GitHub PR title and description provider.
+2025-06-16 20:45:12.421 [info] Successfully registered GitHub PR reviewer comments provider.
+2025-06-16 20:45:12.734 [info] Fetched model metadata in 1249ms 7fcf0d77-8952-407c-8948-d2765c67c99a
+2025-06-16 20:45:12.756 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-06-16 20:45:13.620 [warning] Invalid remote agent response: bad request: unknown integration
+ (SyntaxError: Unexpected token 'b', "bad reques"... is not valid JSON)
+2025-06-16 20:46:03.316 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:46:03.316 [info] request done: requestId: [d64cae7f-0fa4-4e8d-b577-954986d88439] model deployment ID: []
+2025-06-16 20:46:07.934 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:46:07.934 [info] request done: requestId: [043bb52a-df3b-4b3e-b981-27a8c7041a5b] model deployment ID: []
+2025-06-16 20:46:10.241 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:46:10.241 [info] request done: requestId: [66962cf4-f89e-4893-a47b-73d69babea7b] model deployment ID: []
+2025-06-16 20:46:32.885 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:46:32.885 [info] request done: requestId: [8bee8ef1-0be2-4b5f-ae0f-9c2cca23bd27] model deployment ID: []
+2025-06-16 20:46:37.442 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:46:37.442 [info] request done: requestId: [9b4d1240-9f3b-4247-8179-a4af254cc235] model deployment ID: []
+2025-06-16 20:47:24.464 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:47:24.464 [info] request done: requestId: [7b6f3a7e-d1c6-43e7-863e-6b6b9298ae4c] model deployment ID: []
+2025-06-16 20:47:29.003 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:47:29.003 [info] request done: requestId: [8a2ecd92-71e1-4f9f-a45b-3a1ed1b8c9d3] model deployment ID: []
+2025-06-16 20:47:45.324 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:47:45.324 [info] request done: requestId: [fe05bf49-5f89-4d9d-a9e2-c2ff1f86173a] model deployment ID: []
+2025-06-16 20:47:52.316 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:47:52.316 [info] request done: requestId: [ac4c50b2-3ace-4c44-bdad-8a65980411d3] model deployment ID: []
+2025-06-16 20:50:42.251 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:50:42.251 [info] request done: requestId: [27aa0e02-0e10-47e5-87a3-29aac71b453d] model deployment ID: []
+2025-06-16 20:50:46.050 [error] Error pinging TypeScript server plugin:: Error: <syntax> TypeScript Server Error (5.8.3)
+2025-06-16 20:51:10.881 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:51:10.881 [info] request done: requestId: [7813f24e-da56-4de6-a0ef-5da0d65190d3] model deployment ID: []
+2025-06-16 20:53:42.591 [info] message 0 returned. finish reason: [length]
+2025-06-16 20:53:42.591 [info] request done: requestId: [ed38a566-f3e6-4c72-8d9a-12ea4150888b] model deployment ID: []
+2025-06-16 20:54:19.835 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:54:19.835 [info] request done: requestId: [a1073259-15eb-4c73-8f22-37d04030fc70] model deployment ID: []
+2025-06-16 20:54:56.866 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:54:56.866 [info] request done: requestId: [f2fa7121-39a2-4259-8181-a400a506a449] model deployment ID: []
+2025-06-16 20:55:42.441 [info] Fetched model metadata in 1440ms e950f25f-d392-4178-b159-0263ad301916
+2025-06-16 20:55:55.020 [info] message 0 returned. finish reason: [tool_calls]
+2025-06-16 20:55:55.020 [info] request done: requestId: [b7e628f5-993f-4bb5-8a7d-cd8fdebfe5bd] model deployment ID: []
+2025-06-16 20:56:11.517 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:56:11.517 [info] request done: requestId: [b7e628f5-993f-4bb5-8a7d-cd8fdebfe5bd] model deployment ID: []
+2025-06-16 20:56:43.737 [info] message 0 returned. finish reason: [tool_calls]
+2025-06-16 20:56:43.737 [info] request done: requestId: [1c28c169-3c48-4808-b576-be621c960074] model deployment ID: []
+2025-06-16 20:56:58.567 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:56:58.567 [info] request done: requestId: [1c28c169-3c48-4808-b576-be621c960074] model deployment ID: []
+2025-06-16 20:57:31.965 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:57:31.965 [info] request done: requestId: [ece16e8e-20fb-426a-b496-3081af24ee67] model deployment ID: []
+2025-06-16 20:58:02.342 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:58:02.342 [info] request done: requestId: [0847b98b-a459-4cfc-aab6-4c28cb777f87] model deployment ID: []
+2025-06-16 20:58:29.989 [info] message 0 returned. finish reason: [tool_calls]
+2025-06-16 20:58:29.989 [info] request done: requestId: [f46b60f4-ff02-42e2-b370-f26e0eff26f3] model deployment ID: []
+2025-06-16 20:58:43.943 [info] message 0 returned. finish reason: [tool_calls]
+2025-06-16 20:58:43.943 [info] request done: requestId: [f46b60f4-ff02-42e2-b370-f26e0eff26f3] model deployment ID: []
+2025-06-16 20:58:58.539 [info] message 0 returned. finish reason: [stop]
+2025-06-16 20:58:58.539 [info] request done: requestId: [f46b60f4-ff02-42e2-b370-f26e0eff26f3] model deployment ID: []
+2025-06-16 20:59:50.177 [info] message 0 returned. finish reason: [tool_calls]
+2025-06-16 20:59:50.177 [info] request done: requestId: [d1a42923-ad88-408c-a494-adb1e22ad752] model deployment ID: []
+2025-06-16 21:01:48.763 [info] message 0 returned. finish reason: [tool_calls]
+2025-06-16 21:01:48.763 [info] request done: requestId: [68eaa95b-60e5-439b-831c-4806197833e0] model deployment ID: []
+2025-06-16 21:02:03.825 [info] message 0 returned. finish reason: [tool_calls]
+2025-06-16 21:02:03.825 [info] request done: requestId: [68eaa95b-60e5-439b-831c-4806197833e0] model deployment ID: []
+2025-06-16 21:02:04.201 [error] Error from tool create_file with args {"filePath": ".gitignore", "content": "# dependencies\n/node_modules\n/.pnp\n.pnp.js\n\n# testing\n/coverage\n\n# next.js\n/.next/\n/out/\n\n# production\n/build\n\n# misc\n.DS_Store\n*.pem\n\n# debug\nnpm-debug.log*\nyarn-debug.log*\nyarn-error.log*\n\n# local env files\n.env*.local\n\n# vercel\n.vercel\n\n# typescript\n*.tsbuildinfo\nnext-env.d.ts\n\n# IDE\n.vscode/\n.idea/"}: Invalid input path: .gitignore. Be sure to use an absolute path.: Error: Invalid input path: .gitignore. Be sure to use an absolute path.
+	at qo (/home/codespace/.vscode-remote/extensions/github.copilot-chat-0.28.0/dist/extension.js:677:1505)
+	at UK.prepareInvocation (/home/codespace/.vscode-remote/extensions/github.copilot-chat-0.28.0/dist/extension.js:1402:3991)
+	at Jq.$prepareToolInvocation (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:153:3686)
+	at $5.S (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:29:163308)
+	at $5.Q (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:29:163088)
+	at $5.M (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:29:162139)
+	at $5.L (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:29:161282)
+	at ud.value (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:29:160079)
+	at D.B (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at po.fire (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at ud.value (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:361:3443)
+	at D.B (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at po.fire (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:29:9458)
+	at lv.A (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:29:12574)
+	at ud.value (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:29:10994)
+	at D.B (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:27:2373)
+	at D.fire (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:27:2591)
+	at lk.acceptChunk (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:29:7941)
+	at file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:29:7227
+	at Socket.t (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:29:15251)
+	at Socket.emit (node:events:518:28)
+	at addChunk (node:internal/streams/readable:561:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+	at Readable.push (node:internal/streams/readable:392:5)
+	at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+	at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-06-16 21:02:12.616 [info] message 0 returned. finish reason: [tool_calls]
+2025-06-16 21:02:12.616 [info] request done: requestId: [68eaa95b-60e5-439b-831c-4806197833e0] model deployment ID: []
+2025-06-16 21:02:26.216 [info] message 0 returned. finish reason: [tool_calls]
+2025-06-16 21:02:26.216 [info] request done: requestId: [68eaa95b-60e5-439b-831c-4806197833e0] model deployment ID: []
+2025-06-16 21:02:38.590 [info] message 0 returned. finish reason: [stop]
+2025-06-16 21:02:38.590 [info] request done: requestId: [68eaa95b-60e5-439b-831c-4806197833e0] model deployment ID: []
+2025-06-16 21:03:20.646 [info] message 0 returned. finish reason: [tool_calls]
+2025-06-16 21:03:20.646 [info] request done: requestId: [c51b1f6d-e4ce-47e9-8382-ce426e0ac506] model deployment ID: []
+2025-06-16 21:04:47.937 [info] message 0 returned. finish reason: [tool_calls]
+2025-06-16 21:04:47.938 [info] request done: requestId: [c51b1f6d-e4ce-47e9-8382-ce426e0ac506] model deployment ID: []

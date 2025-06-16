@@ -1,0 +1,16 @@
+0 verbose cli /usr/local/share/nvm/versions/node/v20.19.0/bin/node /usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.19.0
+3 silly config load:file:/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/codespace/.npmrc
+5 silly config load:file:/usr/local/share/nvm/versions/node/v20.19.0/etc/npmrc
+6 verbose title npm exec create-next-app@latest . --typescript --tailwind --app --use-npm
+7 verbose argv "exec" "--" "create-next-app@latest" "." "--typescript" "--tailwind" "--app" "--use-npm"
+8 verbose logfile logs-max:10 dir:/home/codespace/.npm/_logs/2025-06-16T20_59_52_117Z-
+9 verbose logfile /home/codespace/.npm/_logs/2025-06-16T20_59_52_117Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 http fetch GET 200 https://registry.npmjs.org/npm 172ms
+13 http fetch GET 200 https://registry.npmjs.org/create-next-app 320ms (cache miss)
+14 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+15 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912

@@ -1,0 +1,55 @@
+2025-06-16 20:44:59.120 [info] [الرئيسي] مستوى السجل: Info
+2025-06-16 20:44:59.120 [info] [الرئيسي] التحقق من git الموجود في: "git"
+2025-06-16 20:44:59.120 [info] [الرئيسي] استخدام git "2.49.0" من "git"
+2025-06-16 20:44:59.120 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-16 20:44:59.120 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-16 21:02:27.147 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-16 21:02:31.296 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-16 21:02:31.303 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-06-16 21:02:31.317 [info] [Model][openRepository] Opened repository (path): /home/codespace
+2025-06-16 21:02:31.317 [info] [Model][openRepository] Opened repository (real path): /home/codespace
+2025-06-16 21:02:31.338 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-16 21:02:31.339 [info] > git config --get commit.template [8ms]
+2025-06-16 21:02:31.339 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-16 21:02:31.339 [warning] [Git][getBranch] No such branch: main
+2025-06-16 21:02:31.355 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-16 21:02:31.999 [info] > git check-ignore -v -z --stdin [5ms]
+2025-06-16 21:02:35.796 [info] > git status -z -uall [4451ms] (cancelled)
+2025-06-16 21:02:35.796 [info] > git config --get --local branch.main.github-pr-owner-number [2032ms]
+2025-06-16 21:02:35.797 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-16 21:02:35.805 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2054ms]
+2025-06-16 21:02:35.805 [warning] [Git][getBranch] No such branch: main
+2025-06-16 21:02:35.805 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-06-16 21:02:35.821 [info] > git config --get --local branch.main.remote [16ms]
+2025-06-16 21:02:35.821 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-16 21:02:35.840 [info] > git config --get commit.template [53ms]
+2025-06-16 21:02:35.861 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-16 21:02:35.862 [info] > git config --get --local branch.main.merge [22ms]
+2025-06-16 21:02:35.862 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-16 21:02:35.868 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-06-16 21:02:35.868 [warning] [Git][getBranch] No such branch: main
+2025-06-16 21:02:35.922 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-06-16 21:02:38.602 [info] > git status -z -uall [2717ms] (cancelled)
+2025-06-16 21:04:21.274 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-16 21:04:21.275 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-06-16 21:04:21.275 [warning] [Git][getBranch] No such branch: main
+2025-06-16 21:04:21.276 [info] > git config --get commit.template [12ms]
+2025-06-16 21:04:21.308 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-06-16 21:04:23.227 [info] > git status -z -uall [1939ms] (cancelled)
+2025-06-16 21:04:30.423 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [11ms]
+2025-06-16 21:04:30.423 [info] fatal: bad revision 'refs/heads/main'
+2025-06-16 21:04:30.424 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2025-06-16 21:04:30.954 [info] > git check-ignore -v -z --stdin [25ms]
+2025-06-16 21:04:46.964 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [14ms]
+2025-06-16 21:04:46.964 [info] fatal: bad revision 'refs/heads/main'
+2025-06-16 21:04:46.964 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}

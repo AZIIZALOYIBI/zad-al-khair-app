@@ -1,0 +1,27 @@
+{
+  "WebComponent Template": {
+    "prefix": "wc",
+    "body": [
+      "export class ${1:MyComponent} extends HTMLElement {",
+      "}",
+      "",
+      "declare global {",
+      "  interface HTMLElementTagNameMap {",
+      "    '${0:my-component}': ${1:MyComponent};",
+      "  }",
+      "",
+      "  namespace GreyCat {",
+      "    namespace JSX {",
+      "      interface IntrinsicElements {",
+      "        '${0:my-component}': GreyCat.Element<${1:MyComponent}>;",
+      "      }",
+      "    }",
+      "  }",
+      "}",
+      "",
+      "if (!customElements.get('${0:my-component}')) {",
+      "  customElements.define('${0:my-component}', ${1:MyComponent});",
+      "}"
+    ]
+  }
+}

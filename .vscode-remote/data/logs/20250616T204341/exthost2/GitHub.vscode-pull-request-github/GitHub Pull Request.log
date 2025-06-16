@@ -1,0 +1,20 @@
+2025-06-16 20:45:03.533 [warning] /home/codespace/.ssh/config: ENOENT: no such file or directory, open '/home/codespace/.ssh/config'
+2025-06-16 20:45:03.533 [info] [Activation] Extension version: 0.110.0
+2025-06-16 20:45:08.245 [info] [Authentication] Creating hub for .com
+2025-06-16 20:45:08.467 [info] [Activation] Looking for git repository
+2025-06-16 20:45:08.467 [info] [Activation] Found 0 repositories during activation
+2025-06-16 20:45:08.467 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2025-06-16 20:45:08.468 [info] [GitAPI] Registering git provider
+2025-06-16 21:02:31.317 [info] [GitAPI] Repository file:///home/codespace has been opened
+2025-06-16 21:02:31.317 [info] [Review+0] Validate state in progress
+2025-06-16 21:02:31.317 [info] [Review+0] Validating state...
+2025-06-16 21:02:31.319 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-06-16 21:02:31.319 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /home/codespace
+2025-06-16 21:02:33.728 [info] [Review+0] Validate state in progress
+2025-06-16 21:02:33.728 [info] [Review+0] Validating state...
+2025-06-16 21:02:33.728 [info] [Activation] Repo state for file:///home/codespace changed.
+2025-06-16 21:02:33.728 [info] [Activation] Repo file:///home/codespace has already been setup.
+2025-06-16 21:02:33.755 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-06-16 21:02:33.755 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /home/codespace
+2025-06-16 21:02:35.797 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-06-16 21:02:35.862 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
