@@ -1,0 +1,5 @@
+# VS Code settings and logs
+.vscode-remote/
+.vscode/
+*.log
+*.lock
