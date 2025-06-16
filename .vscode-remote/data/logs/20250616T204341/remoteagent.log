@@ -102,3 +102,30 @@
 2025-06-16 21:05:05.485 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] New connection established.
 2025-06-16 21:05:05.489 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] <45149> Launched Extension Host Process.
 2025-06-16 21:05:22.084 [info] [127.0.0.1][5c0083e6][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-06-16 21:07:29.489 [info] [127.0.0.1][5c0083e6][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-06-16 21:07:29.496 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:07:51.024 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:08:12.454 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:08:33.972 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:08:55.399 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:09:16.884 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:09:38.367 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:09:59.806 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:10:04.027 [info] [127.0.0.1][010cdc39][ExtensionHostConnection] <29815> Extension Host Process exited with code: 0, signal: null.
+2025-06-16 21:10:21.289 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:10:42.760 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:11:16.912 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:11:38.340 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:12:00.032 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:12:22.014 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:12:29.701 [info] [127.0.0.1][5c0083e6][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-06-16 21:12:44.049 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:13:06.046 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:25:43.403 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:26:04.840 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:26:27.145 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:26:48.562 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:27:11.384 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:27:32.821 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:27:54.393 [info] [127.0.0.1][5cf37f82][ExtensionHostConnection] The client has reconnected.
+2025-06-16 21:32:31.342 [info] [127.0.0.1][340db741][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

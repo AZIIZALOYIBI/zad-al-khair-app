@@ -5,3 +5,23 @@
 2025-06-16 21:05:32.494 [info] [Activation] Found 0 repositories during activation
 2025-06-16 21:05:32.494 [info] [Activation] Git repository found, initializing review manager and pr tree view.
 2025-06-16 21:05:32.495 [info] [GitAPI] Registering git provider
+2025-06-16 21:10:53.362 [info] [GitAPI] Repository file:///home/codespace has been opened
+2025-06-16 21:10:53.362 [info] [Review+0] Validate state in progress
+2025-06-16 21:10:53.362 [info] [Review+0] Validating state...
+2025-06-16 21:10:53.365 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-06-16 21:10:53.366 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /home/codespace
+2025-06-16 21:13:42.118 [info] [Review+0] Validate state in progress
+2025-06-16 21:13:42.118 [info] [Review+0] Validating state...
+2025-06-16 21:13:42.118 [info] [Activation] Repo state for file:///home/codespace changed.
+2025-06-16 21:13:42.118 [info] [Activation] Repo file:///home/codespace has already been setup.
+2025-06-16 21:13:42.133 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-06-16 21:13:42.133 [info] [FolderRepositoryManager+0] No GitHub remotes found for folder /home/codespace
+2025-06-16 21:13:42.184 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-06-16 21:13:42.600 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2025-06-16 21:33:01.800 [info] [Review+0] Validate state in progress
+2025-06-16 21:33:01.800 [info] [Review+0] Validating state...
+2025-06-16 21:33:01.887 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /home/codespace
+2025-06-16 21:33:02.377 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2025-06-16 21:33:02.440 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2025-06-16 21:33:02.506 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2025-06-16 21:33:02.770 [info] [FolderRepositoryManager+0] Using globalState assignableUsers for 1.

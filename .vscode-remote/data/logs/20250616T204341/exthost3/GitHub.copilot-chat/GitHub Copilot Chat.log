@@ -21,3 +21,24 @@
  (SyntaxError: Unexpected token 'b', "bad reques"... is not valid JSON)
 2025-06-16 21:05:46.968 [info] message 0 returned. finish reason: [tool_calls]
 2025-06-16 21:05:46.968 [info] request done: requestId: [a87ab29d-3d3f-45b2-a7d3-57576724f240] model deployment ID: []
+2025-06-16 21:28:15.037 [info] Logged in as AZIIZALOYIBI
+2025-06-16 21:28:17.204 [info] Got Copilot token for AZIIZALOYIBI
+2025-06-16 21:28:18.337 [info] Fetched model metadata in 5414ms 99d91d01-3939-446d-8910-6f2d91865bb3
+2025-06-16 21:28:18.451 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-06-16 21:28:19.762 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-06-16 21:28:31.470 [info] message 0 returned. finish reason: [stop]
+2025-06-16 21:28:31.470 [info] request done: requestId: [32b6edb1-6a6b-4d66-9cbf-f230cc39d88b] model deployment ID: []
+2025-06-16 21:32:51.351 [info] message 0 returned. finish reason: [tool_calls]
+2025-06-16 21:32:51.351 [info] request done: requestId: [61dccffc-9b6d-4283-a9f4-bea258e87cd5] model deployment ID: []
+2025-06-16 21:33:00.254 [info] message 0 returned. finish reason: [stop]
+2025-06-16 21:33:00.254 [info] request done: requestId: [dd85f725-69bc-4933-a8ed-89f8f8d25aeb] model deployment ID: []
+2025-06-16 21:33:01.051 [info] message 0 returned. finish reason: [stop]
+2025-06-16 21:33:01.051 [info] request done: requestId: [61dccffc-9b6d-4283-a9f4-bea258e87cd5] model deployment ID: []
+2025-06-16 21:33:24.673 [info] message 0 returned. finish reason: [tool_calls]
+2025-06-16 21:33:24.673 [info] request done: requestId: [c0729db6-778f-4da9-a611-0f7b903fc301] model deployment ID: []
+2025-06-16 21:33:32.223 [info] message 0 returned. finish reason: [stop]
+2025-06-16 21:33:32.223 [info] request done: requestId: [c0729db6-778f-4da9-a611-0f7b903fc301] model deployment ID: []
+2025-06-16 21:33:48.658 [info] message 0 returned. finish reason: [tool_calls]
+2025-06-16 21:33:48.658 [info] request done: requestId: [98f02d2c-bf49-46b7-aba8-04d1ba6b2b75] model deployment ID: []
+2025-06-16 21:33:57.807 [info] message 0 returned. finish reason: [tool_calls]
+2025-06-16 21:33:57.807 [info] request done: requestId: [98f02d2c-bf49-46b7-aba8-04d1ba6b2b75] model deployment ID: []

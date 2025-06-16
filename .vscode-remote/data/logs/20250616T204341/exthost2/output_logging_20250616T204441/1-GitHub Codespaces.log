@@ -337,3 +337,83 @@
 [Performance I] Executed get-performance-data using gRPC
 [Performance I] Executed get-performance-data using gRPC
 [Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:da79:resolver V] disposing reason: 'vscode disposed the resolver', disposing 1 objects
+[ResourceUsage I] Failed to read resource usage file.> object #0: Canceled code:Unknown
+Canceled (FileSystemError): Canceled
+	at dr.e (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:120:18860)
+	at Object.readFile (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:120:16585)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[ResourceUsage I] Failed to read resource usage file.> object #0: Canceled code:Unknown
+Canceled (FileSystemError): Canceled
+	at dr.e (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:120:18860)
+	at Object.readFile (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:120:16585)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[ResourceUsage I] Failed to read resource usage file.> object #0: Canceled code:Unknown
+Canceled (FileSystemError): Canceled
+	at dr.e (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:120:18860)
+	at Object.readFile (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:120:16585)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[ResourceUsage I] Failed to read resource usage file.> object #0: Canceled code:Unknown
+Canceled (FileSystemError): Canceled
+	at dr.e (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:120:18860)
+	at Object.readFile (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:120:16585)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[ResourceUsage I] Failed to read resource usage file.> object #0: Canceled code:Unknown
+Canceled (FileSystemError): Canceled
+	at dr.e (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:120:18860)
+	at Object.readFile (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:120:16585)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[Performance I] Failed to update performance explorer.> object #0: Canceled
+Canceled: Canceled
+	at al (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:7:1394)
+	at file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:29:160186
+	at Array.forEach (<anonymous>)
+	at $5.dispose (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:29:160126)
+	at yY.terminate (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:124:10082)
+	at zA.terminate (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:126:914)
+	at gr (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:361:5228)
+	at $E.a (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:361:2140)
+	at $E.h (file:///vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/out/vs/workbench/api/node/extensionHostProcess.js:28:75751)
+	at listOnTimeout (node:internal/timers:588:17)
+	at process.processTimers (node:internal/timers:523:7)

@@ -18,3 +18,16 @@
 2025-06-16 20:45:10.060 [info] BYOK: Copilot Chat known models list fetched successfully.
 2025-06-16 20:45:11.139 [warning] Invalid remote agent response: bad request: unknown integration
  (SyntaxError: Unexpected token 'b', "bad reques"... is not valid JSON)
+2025-06-16 21:28:53.075 [info] Logged in as AZIIZALOYIBI
+2025-06-16 21:28:54.595 [info] Got Copilot token for AZIIZALOYIBI
+2025-06-16 21:28:55.470 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-06-16 21:28:55.678 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-06-16 21:29:27.005 [info] Fetched model metadata in 1322ms 7f5f741a-65b5-43f4-9a1d-4c54321c030f
+2025-06-16 21:29:30.831 [info] message 0 returned. finish reason: [stop]
+2025-06-16 21:29:30.831 [info] request done: requestId: [3c0b3560-c1eb-4a68-8803-991a5e7a5995] model deployment ID: []
+2025-06-16 21:29:52.759 [info] message 0 returned. finish reason: [tool_calls]
+2025-06-16 21:29:52.759 [info] request done: requestId: [a37567c8-0657-4cbe-b1a7-ebcd7f45d62e] model deployment ID: []
+2025-06-16 21:29:56.146 [info] message 0 returned. finish reason: [stop]
+2025-06-16 21:29:56.146 [info] request done: requestId: [a37567c8-0657-4cbe-b1a7-ebcd7f45d62e] model deployment ID: []
+2025-06-16 21:31:47.517 [info] message 0 returned. finish reason: [stop]
+2025-06-16 21:31:47.517 [info] request done: requestId: [2406a2a6-a093-4092-b028-ff7031cf0eef] model deployment ID: []

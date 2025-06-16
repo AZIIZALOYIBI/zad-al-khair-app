@@ -2,3 +2,6 @@
 2025-06-16 20:45:48.511 [info] Using tsserver from: /vscode/bin/linux-x64/dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1/extensions/node_modules/typescript/lib/tsserver.js
 2025-06-16 20:45:48.511 [info] <syntax> Forking...
 2025-06-16 20:45:48.511 [info] <syntax> Starting...
+2025-06-16 21:10:03.946 [error] TSServer exited. Code: null. Signal: SIGTERM
+2025-06-16 21:10:03.947 [info] Starting TS Server
+2025-06-16 21:10:03.947 [info] Not starting server: disposed
